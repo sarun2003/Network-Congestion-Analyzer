@@ -24,17 +24,7 @@ The **Network Congestion Analyzer** is a Python-based tool designed to monitor a
 
 ## Project Structure
 Network Congestion Analyzer/
-├── main.py                 # Entry point for the program
-├── src/
-│   ├── __init__.py         # Makes 'src' a Python package
-│   ├── capture.py          # Handles network traffic capture
-│   ├── analyze.py          # Contains logic for analyzing traffic data
-│   ├── visualize.py        # Handles visualization of traffic
-│   ├── export.py           # Saves traffic data to a CSV file
-│   ├── config.py           # Configuration and constants
-├── venv/                   # Virtual environment
-├── traffic_data.csv        # Exported traffic data
-└── README.md               # Project documentation
+Network Congestion Analyzer/ ├── main.py # Entry point for the program ├── src/ │ ├── init.py # Makes 'src' a Python package │ ├── capture.py # Handles network traffic capture │ ├── analyze.py # Contains logic for analyzing traffic data │ ├── visualize.py # Handles visualization of traffic │ ├── export.py # Saves traffic data to a CSV file │ ├── config.py # Configuration and constants ├── venv/ # Virtual environment ├── traffic_data.csv # Exported traffic data └── README.md # Project documentation
 
 ---
 
@@ -43,23 +33,25 @@ Network Congestion Analyzer/
 - Virtual Environment (recommended)
 
 ### Python Libraries:
-- [Scapy](https://pypi.org/project/scapy/)
-- [Matplotlib](https://pypi.org/project/matplotlib/)
+- [Scapy]        (https://pypi.org/project/scapy/)
+- [Matplotlib]   (https://pypi.org/project/matplotlib/)
 
 ---
 
 ## Installation
 1. **Clone the Repository**:
-   git clone https://github.com/your-username/network-congestion-analyzer.git
+   git clone https://github.com/sarun2003/network-congestion-analyzer.git
    cd network-congestion-analyzer
 
 2. **Clone the Repository**:
    python3 -m venv venv
 source venv/bin/activate  
 Since I made it on my Mac you can use use this one on **Windows**: venv\Scripts\activate
-4. **Install Dependencies**:
+
+3. **Install Dependencies**:
    Run the Program:
-5. **Run the Program**:
+   
+4. **Run the Program**:
    python main.py
 
 ---
