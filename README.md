@@ -23,7 +23,7 @@ The **Network Congestion Analyzer** is a Python-based tool designed to monitor a
 ---
 
 ## Project Structure
-Network Congestion Analyzer/ ├── main.py # Entry point for the program ├── src/ │ ├── init.py # Makes 'src' a Python package │ ├── capture.py # Handles network traffic capture │ ├── analyze.py # Contains logic for analyzing traffic data │ ├── visualize.py # Handles visualization of traffic │ ├── export.py # Saves traffic data to a CSV file │ ├── config.py # Configuration and constants ├── venv/ # Virtual environment ├── traffic_data.csv # Exported traffic data └── README.md # Project documentation
+Network Congestion Analyzer/ |- main.py # Entry point for the program |- src/ │ |- init.py # Makes 'src' a Python package │ ├── capture.py # Handles network traffic capture │ ├── analyze.py # Contains logic for analyzing traffic data │ ├── visualize.py # Handles visualization of traffic │ ├── export.py # Saves traffic data to a CSV file │ ├── config.py # Configuration and constants ├── venv/ # Virtual environment ├── traffic_data.csv # Exported traffic data └── README.md # Project documentation
 
 ---
 
@@ -63,14 +63,14 @@ Since I made it on my Mac you can use use this one on **Windows**: venv\Scripts\
 
 ## Configuration
 Let's modify the config.py file to customize settings:
-**Capture Duration**: Time (in seconds) to capture packets.
-**Traffic Threshold**: Threshold for detecting congestion.
+- **Capture Duration**: Time (in seconds) to capture packets.
+- **Traffic Threshold**: Threshold for detecting congestion.
 
 ---
 
 **Example**:
-***CAPTURE_DURATION*** = 20  # Capturing for 20 seconds
-***TRAFFIC_THRESHOLD*** = 10000  # It will be the bytes
+- ***CAPTURE_DURATION*** = 20  # Capturing for 20 seconds
+- ***TRAFFIC_THRESHOLD*** = 10000  # It will be the bytes
 
 ---
 
@@ -111,8 +111,8 @@ Contributions are welcome! Feel free to fork the repository, submit issues, or c
 
 ## Contact
 For any questions or suggestions, feel free to contact me:
-**Email**: sarunshrestha03@gmail.com
-**GitHub**: sarun2003
+- **Email**: sarunshrestha03@gmail.com
+- **GitHub**: sarun2003
 
 ---
 
