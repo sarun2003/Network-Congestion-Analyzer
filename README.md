@@ -23,7 +23,20 @@ The **Network Congestion Analyzer** is a Python-based tool designed to monitor a
 ---
 
 ## Project Structure
-Network Congestion Analyzer/ |- main.py # Entry point for the program |- src/ │ |- init.py # Makes 'src' a Python package │ ├── capture.py # Handles network traffic capture │ ├── analyze.py # Contains logic for analyzing traffic data │ ├── visualize.py # Handles visualization of traffic │ ├── export.py # Saves traffic data to a CSV file │ ├── config.py # Configuration and constants ├── venv/ # Virtual environment ├── traffic_data.csv # Exported traffic data └── README.md # Project documentation
+
+- **Network-Congestion-Analyzer/**
+  - `main.py` - Entry point for the program
+  - **src/**
+    - `__init__.py` - Makes 'src' a Python package
+    - `capture.py` - Handles network traffic capture
+    - `analyze.py` - Contains logic for analyzing traffic data
+    - `visualize.py` - Handles visualization of traffic
+    - `export.py` - Saves traffic data to a CSV file
+    - `config.py` - Configuration and constants
+  - **venv/** - Virtual environment
+  - `traffic_data.csv` - Exported traffic data
+  - `requirements.txt` - Dependencies for the project
+  - `README.md` - Project documentation
 
 ---
 
