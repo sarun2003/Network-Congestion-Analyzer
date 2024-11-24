@@ -23,7 +23,6 @@ The **Network Congestion Analyzer** is a Python-based tool designed to monitor a
 ---
 
 ## Project Structure
-Network Congestion Analyzer/
 Network Congestion Analyzer/ ├── main.py # Entry point for the program ├── src/ │ ├── init.py # Makes 'src' a Python package │ ├── capture.py # Handles network traffic capture │ ├── analyze.py # Contains logic for analyzing traffic data │ ├── visualize.py # Handles visualization of traffic │ ├── export.py # Saves traffic data to a CSV file │ ├── config.py # Configuration and constants ├── venv/ # Virtual environment ├── traffic_data.csv # Exported traffic data └── README.md # Project documentation
 
 ---
@@ -70,31 +69,31 @@ Let's modify the config.py file to customize settings:
 ---
 
 **Example**:
-CAPTURE_DURATION = 20  # Capturing for 20 seconds
-TRAFFIC_THRESHOLD = 10000  # It will be the bytes
+***CAPTURE_DURATION*** = 20  # Capturing for 20 seconds
+***TRAFFIC_THRESHOLD*** = 10000  # It will be the bytes
 
 ---
 
 ## Example Output
 
 **Congestion Detection**
-Starting Network Congestion Analysis Tool...
-Capturing traffic for 10 seconds...
-Traffic capture complete!
-Analyzing traffic for congestion...
-Congestion detected on the following routes:
-192.168.1.1 -> 8.8.8.8: 15000 Bytes
-Traffic data saved to traffic_data.csv
-Analysis complete!
+- Starting Network Congestion Analysis Tool...
+- Capturing traffic for 10 seconds...
+- Traffic capture complete!
+- Analyzing traffic for congestion...
+- Congestion detected on the following routes:
+- 192.168.1.1 -> 8.8.8.8: 15000 Bytes
+- Traffic data saved to traffic_data.csv
+- Analysis complete!
 
 ---
 
 ## Visualization
 Captured traffic is saved in traffic_data.csv with the following structure:
 
-Source, Destination, Traffic (Bytes)
-192.168.1.1, 8.8.8.8, 15000
-192.168.1.2, 8.8.4.4, 5000
+**Source, Destination, Traffic (Bytes)**
+- 192.168.1.1, 8.8.8.8, 15000
+- 192.168.1.2, 8.8.4.4, 5000
 
 ---
 
@@ -112,8 +111,8 @@ Contributions are welcome! Feel free to fork the repository, submit issues, or c
 
 ## Contact
 For any questions or suggestions, feel free to contact me:
-Email: sarunshrestha03@gmail.com
-GitHub: sarun2003
+**Email**: sarunshrestha03@gmail.com
+**GitHub**: sarun2003
 
 ---
 
